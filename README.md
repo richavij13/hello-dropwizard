@@ -27,10 +27,10 @@ To test the example application run the following commands.
 
 # Dev Environment Exercise 
 
-We have dockerized the application,(Ref the file [Docker File](https://github.com/richavij13/hello-dropwizard/edit/master/README.md).
-Docker Compose is used to manage multiple docker containers and their inter connectivity. In our case we have 2 containers - Nginx and Dropwizard. ( Ref File - docker-compose.yml )
+We have dockerized the application, Ref the file [Docker File](https://github.com/richavij13/hello-dropwizard/edit/master/README.md).
+Docker Compose is used to manage multiple docker containers and their inter connectivity.In our case we have 2 containers - Nginx and Dropwizard. ( Ref File - [docker-compose.yml] (https://github.com/richavij13/hello-dropwizard/blob/master/Compose/docker-compose.yml).
 Everytime developer want to check/release, he needs to build the docker image locally on his machine. This process can be automated for production lifecycle using CI/CD tool based on the commit at VCS.
-We are using Nginx to do the redirect ( /hello -> /hello-world ) and a proxy layer before the application and admin endpoint. Nginx Configuration file - nginx/default.conf
+We are using Nginx to do the redirect ( /hello -> /hello-world ) and a proxy layer before the application and admin endpoint. Nginx Configuration file - [nginx/default.conf] (https://github.com/richavij13/hello-dropwizard/blob/master/Compose/docker-compose.yml)
 Here
 
 ## Background
