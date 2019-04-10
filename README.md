@@ -33,7 +33,7 @@ The Dropwizard Hello World application
 
 * Everytime developer want to check/release, he needs to build the docker image locally on his machine. This process can be automated     for production lifecycle using CI/CD tool based on the commit at VCS.
 
-* We are using Nginx to do the redirect ( /hello -> /hello-world ) and a proxy layer before the application and admin endpoint. Nginx     Configuration file - [nginx/default.conf](https://github.com/richavij13/hello-dropwizard/blob/master/Compose/docker-compose.yml)
+* We are using Nginx to do the redirect ( /hello -> /hello-world ) and a proxy layer before the application and admin endpoint. Nginx     Configuration file - [nginx/default.conf](https://github.com/richavij13/hello-dropwizard/blob/master/Compose/nginx/default.conf)
 
  # Here are the Steps
 
